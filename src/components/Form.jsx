@@ -49,6 +49,14 @@ export default function Form() {
         }
 
         setErrors(validationErrors);
+
+        if (Object.keys(validationErrors).length === 0) {
+            setFormInput({
+                username: '',
+                email: '',
+                message: ''
+            });
+        }
     };
 
     return (<div className="col-4">
