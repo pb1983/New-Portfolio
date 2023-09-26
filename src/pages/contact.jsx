@@ -1,5 +1,13 @@
+import Form from '../components/Form'
+
 export default function Contact() {
-    return (
+
+
+
+
+
+  
+  return (
         <div>
           <h1>Contact</h1>
           <p>
@@ -14,6 +22,9 @@ export default function Contact() {
             vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
             fames ac ante ipsum primis in faucibus.
           </p>
-        </div>
+          
+          <Form></Form>
+
+          </div>
       );
 }
