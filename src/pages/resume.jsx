@@ -1,9 +1,11 @@
+import MyResume from '../assets/Phil_Bryer_Resume.pdf'
+
 export default function Resume() {
     return (
         <div className="mt-2 m-2">
-          <h1>Resume</h1>
+          <h3>Resume</h3>
           <p>
-            If you're interested in seeing more of my credentials and previous experience, download my <a href="https://github.com/pb1983/Resume/blob/main/Phil_Bryer_Resume.pdf" download>resume</a>.
+            If you would like to see more of my credentials and previous experience, download my <u><a href={MyResume} download>resume</a></u>.
           </p>
           <h5>Front End Skills:</h5>
           <ul>
@@ -20,6 +22,7 @@ export default function Resume() {
             <li>Express</li>
             <li>MySQL</li>
             <li>MongoDB</li>
+            <li>API routing</li>
           </ul>
         </div>
       );

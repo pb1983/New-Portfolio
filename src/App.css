@@ -18,7 +18,8 @@ a:visited {
  footer {
   margin-top: auto;
   text-align: center;
-  margin-bottom: 10px;;
+  margin-bottom: 10px;
+  padding-top: 20px;
  }
 
 
@@ -39,12 +40,16 @@ a:visited {
   border-radius: 50%;
 }
 
-.font-size {
+.icon-size {
   font-size: 2em;
   padding: 10px;
   color: black;
 }
 
-.font-size:hover {
+.icon-size:hover {
   opacity: .7;
+}
+
+.about-container {
+  margin-top: 120px;
 }
