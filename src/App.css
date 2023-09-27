@@ -1,3 +1,4 @@
+
 a:link {
      text-decoration: none; 
      color: black;
@@ -8,8 +9,16 @@ a:visited {
     text-decoration: none;
  }
 
+ .App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+ }
+
  footer {
   margin-top: auto;
+  text-align: center;
+  margin-bottom: 10px;;
  }
 
 
@@ -20,6 +29,22 @@ a:visited {
     border: 2px solid black;
 }
 
+.img-resize:hover {
+  opacity: .7;
+}
 
+.prof-pic {
+  height: 175px;
+  width: 120px;
+  border-radius: 50%;
+}
 
- 
+.font-size {
+  font-size: 2em;
+  padding: 10px;
+  color: black;
+}
+
+.font-size:hover {
+  opacity: .7;
+}

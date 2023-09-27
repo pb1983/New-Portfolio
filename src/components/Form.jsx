@@ -62,7 +62,7 @@ export default function Form() {
     return (<div className="col-4">
         <form onSubmit={handleSubmit}>
             <div className="form-group">
-                <label htmlFor="exampleFormControlInput1">Name</label>
+                <label htmlFor="exampleFormControlInput1">Name:</label>
                 <input
                     type="text"
                     className="form-control"
@@ -78,7 +78,7 @@ export default function Form() {
                 </p>
             </div>
             <div className="form-group">
-                <label htmlFor="exampleFormControlInput1">Email address</label>
+                <label htmlFor="exampleFormControlInput1">Email address:</label>
                 <input
                     type="email"
                     className="form-control"
@@ -94,7 +94,7 @@ export default function Form() {
                 </p>
             </div>
             <div className="form-group">
-                <label htmlFor="exampleFormControlTextarea1">Message</label>
+                <label htmlFor="exampleFormControlTextarea1">Message:</label>
                 <textarea
                     className="form-control"
                     id="exampleFormControlTextarea1"

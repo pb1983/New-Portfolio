@@ -1,5 +1,6 @@
 
 import { useState } from 'react'
+import {AiFillGithub} from 'react-icons/ai'
 import notebook from '../assets/notebook.jpg'
 import weather from '../assets/weather.jpg'
 import quiz from '../assets/quiz.jpg'
@@ -10,12 +11,13 @@ import password from '../assets/password.jpg'
 export default function Project() {
 
 
+
     return (<div className="container pt-4">
         <div className="row">
             <div className="col-md-4">
                 <img src={notebook} alt="notebook" className="img-resize" />
                 <a href="https://github.com/pb1983/Note-Taker"><h4>Note-Taker App</h4></a>
-                
+          
             </div>
             <div className="col-md-4">
                 <img src={weather} alt="weather" className="img-resize" />
@@ -27,7 +29,7 @@ export default function Project() {
             </div>
         </div>
         <div className="row">
-            <div className="col-md-4">
+            <div className="col-md-4 pb-4">
                 <img src={scheduler} alt="clock and calendar" className="img-resize" />
                 <h4>Scheduler</h4>
             </div>

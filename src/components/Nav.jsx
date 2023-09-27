@@ -27,6 +27,7 @@ export default function Nav() {
   return (
     <>
       <Navbar
+  
         links={[
           <Link key={1} className={location.pathname === '/' ? 'nav-link text-dark' : 'nav-link text-light'} onClick={(event) => changeColor(event, 1)} to="/">
             About Me
@@ -41,7 +42,8 @@ export default function Nav() {
             Resume
           </Link>
         ]}
-      />
+        
+        />
     </>
   )
 }
