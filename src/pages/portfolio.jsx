@@ -3,7 +3,7 @@ import beerjoke from '../assets/beerjoke.jpg'
 import weather from '../assets/weather.jpg'
 import quiz from '../assets/quiz.jpg'
 import scheduler from '../assets/scheduler.jpeg'
-import readme from '../assets/readme.jpg'
+import readme from '../assets/ReadMe.jpg'
 import password from '../assets/password.jpg'
 
 
