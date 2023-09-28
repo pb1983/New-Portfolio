@@ -78,7 +78,7 @@ export default function Form() {
                 </p>
             </div>
             <div className="form-group">
-                <label htmlFor="exampleFormControlInput1">Email address:</label>
+                <label htmlFor="exampleFormControlInput1">Email Address:</label>
                 <input
                     type="email"
                     className="form-control"

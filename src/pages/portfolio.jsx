@@ -52,7 +52,7 @@ export default function Portfolio() {
       image: password,
       title: "Password Generator",
       link: "https://pb1983.github.io/PW-Generator/",
-      gitLink: "https://github.com/pb1983/ReadMeGenerator"
+      gitLink: "https://github.com/pb1983/PW-Generator"
     },
   ];
 
