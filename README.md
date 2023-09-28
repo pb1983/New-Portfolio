@@ -28,3 +28,7 @@
 [Repository](https://github.com/pb1983/New-Portfolio)
 
 [Netlify Link](https://jolly-tapioca-89d78a.netlify.app/)
+
+
+![screencapture-jolly-tapioca-89d78a-netlify-app-portfolio-2023-09-27-21_03_07](https://github.com/pb1983/New-Portfolio/assets/25019626/30ace0e5-409b-46e2-b3fe-8acf74493647)
+
